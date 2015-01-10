@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.moocmusicz.util.Guide" >
+
+	<android.support.v4.view.ViewPager
+	 android:layout_width="match_parent"
+	 android:background="#ffffff"
+	 android:layout_height="match_parent"
+	 android:id="@+id/viewpager"	
+	></android.support.v4.view.ViewPager> 	
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	 	android:layout_height="wrap_content"
+	 	android:layout_alignParentBottom="true"
+	 	android:orientation="horizontal"
+	 	android:gravity="center_horizontal"
+	 	android:layout_marginBottom="50dp"
+	    >
+		<ImageView
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:id="@+id/iv1"
+		   android:src="@drawable/login_point_selected"
+		    ></ImageView>
+		<ImageView
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:id="@+id/iv2"
+		   android:src="@drawable/login_point"
+		    ></ImageView>
+		<ImageView
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:id="@+id/iv3"
+		   android:src="@drawable/login_point"
+		    ></ImageView>
+	</LinearLayout>
+</RelativeLayout>

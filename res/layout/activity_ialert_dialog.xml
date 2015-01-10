@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/buytip_bg"
+    android:orientation="vertical"
+    tools:context="com.example.moocmusicz.dialog.IAlertDialog" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:text="提示" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:id="@+id/content_text_view"
+        android:textColor="@android:color/black"
+        android:text="哈哈哈我是李昭宏，我要成为andorid和php大神，不服solo" />
+    
+    <LinearLayout
+		android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+	>
+        <ImageButton 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_margin="10dp"
+        	android:id="@+id/ok_image_button"
+        	android:background="@drawable/ialertdialog_ok_icon"
+            />
+        <ImageButton 
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+        	android:layout_height="wrap_content"
+        	android:id="@+id/cancel_image_button"
+        	android:background="@drawable/ialertdialog_cancel_icon"
+            />
+    </LinearLayout>
+</LinearLayout>
